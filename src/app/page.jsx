@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <main className=" flex justify-center min-h-[71vh] md:min-h-[56vh] items-center">
+      <main className=" flex justify-center items-center">
         <section className="flex flex-col items-center justify-between gap-5">
           <p className="md:w-[35vw] w-full text-4xl text-center h-fit">
             Kombilərinizin Problemi Bizim Peşəkar Ustalarımızla Həll Olunur.
