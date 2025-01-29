@@ -12,7 +12,7 @@ function AboutPage() {
   ];
   return (
     <>
-      <main className="h-[140vh]">
+      <main className="h-fit md:h-[140vh]">
         <section className="flex flex-col gap-7">
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-2">
@@ -26,7 +26,7 @@ function AboutPage() {
               evlərində rahatlığı təmin etməkdir.
             </p>
           </div>
-          <div className="w-[60vw] h-[55vh]">
+          <div className="w-full md:w-[60vw] h-[55vh]">
             <img
               className="w-full h-full object-cover rounded-md"
               src="/image1.jpg"
@@ -46,7 +46,7 @@ function AboutPage() {
             </p>
           </div>
 
-          <div className="flex justify-around">
+          <div className="flex md:flew-row flex-col md:gap-0 gap-4 justify-around">
             {carts.map(({ icon, text, id }) => {
               return (
                 <React.Fragment key={id}>

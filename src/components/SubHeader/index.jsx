@@ -13,7 +13,7 @@ function SubHeader() {
   return (
     <>
       <div>
-        <nav className="flex justify-between  bg-blue-500 border-t text-white py-3 px-[17vw]">
+        <nav className="flex justify-between  bg-blue-500 border-t text-white py-3 px-5 md:px-[17vw]">
           {navLinks.map(({ href, title,id }) => {
             return (
               <React.Fragment key={id}>

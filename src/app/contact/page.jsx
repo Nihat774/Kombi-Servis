@@ -10,28 +10,28 @@ function Contact() {
         <section className="flex flex-col gap-3">
         <h1 className="text-4xl font-semibold py-3">Əlaqə</h1>
         <div className="flex items-center gap-2">
-          <FaPhoneAlt className="text-2xl" />
-          <p className="text-xl font-medium"> Bizimlə Əlaqə Saxlayın</p>
+          <FaPhoneAlt className="text-xl md:text-2xl" />
+          <p className="text-xl md:text-xl font-medium"> Bizimlə Əlaqə Saxlayın</p>
         </div>
         <div className="flex items-center gap-2">
           <GiAutoRepair className="text-2xl text-gray-600" />
-          <p className="text-xl font-medium">Kombi təmiri və quraşdırılması</p>
+          <p className="text-[14px] md:text-xl font-medium">Kombi təmiri və quraşdırılması</p>
         </div>
         <div className="flex items-center gap-2">
-        <IoInformationCircle className="text-2xl" />
-          <p className="text-xl font-medium">Xidmətlərimiz haqqında ətraflı məlumat almaq və ya təcili xidmət üçün
+        <IoInformationCircle className="text-5xl md:text-2xl" />
+          <p className="text-[14px] md:text-xl font-medium">Xidmətlərimiz haqqında ətraflı məlumat almaq və ya təcili xidmət üçün
           bizimlə əlaqə saxlaya bilərsiniz.</p>
         </div>
-        <div className="flex text-xl font-medium">
-        <FaSquarePhone className="text-2xl mr-2" /><p>Telefon Nömrəmiz:</p>
-            <Link href="tel:+994557748548">+994 55 XXX XX XX</Link> </div>
+        <div className="flex items-center justify-between font-medium ">
+        <FaSquarePhone className="text-xl md:text-2xl " /><p>Telefon Nömrəmiz:</p>
+            <Link href="tel:+994557748548" className="text-sm" >+994 55 XXX XX XX</Link> </div>
         <div className="flex gap-2 items-center">
-        <FaRegCalendarCheck className="text-2xl " />
-         <p className="text-xl font-medium"> Əlaqə Üçün Saatlar: Həftənin 7 günü, saat 09:00 - 20:00 arası əlaqə
+        <FaRegCalendarCheck className="md:text-2xl text-3xl" />
+         <p className="text-[14px] md:text-xl font-medium"> Əlaqə Üçün Saatlar: Həftənin 7 günü, saat 09:00 - 20:00 arası əlaqə
          saxlaya bilərsiniz.</p>
         </div>
         </section>
-        <div>
+        <div className="md:block hidden">
             <img src="/plumber.png" alt="plumber" loading="lazy" />
         </div>
       </main>

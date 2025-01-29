@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
       >
         <Header />
         <SubHeader />
-        <div className="px-[70px] py-[30px]">
+        <div className="px-[30px] md:px-[70px] py-[30px]">
           {children}
           <Icon />
           <Footer />
