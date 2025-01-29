@@ -11,7 +11,18 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
-    },
+      keyframes: {
+        shake: {
+          '0%, 100%': { transform: 'translateX(0)' },
+          '25%': { transform: 'translateY(-2px)' },
+          '50%': { transform: 'translateX(2px)' },
+          '75%': { transform: 'translateY(-2px)' },
+        },
+      },
+      animation: {
+        shake: 'shake .6s ease-in-out infinite',
+      },
+       },
   },
   plugins: [],
 };
