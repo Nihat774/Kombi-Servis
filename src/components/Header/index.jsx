@@ -11,7 +11,7 @@ function Header() {
           <div className="rounded-lg flex items-center border border-white p-2 md:p-3 hover:animate-shake">
             <Link
               href="tel:+994557748548"
-              className="flex text-[10px] md:text-lg  items-center gap-1 md:gap-2 "
+              className="flex text-[10px] md:text-xl  items-center gap-1 md:gap-2 "
             >
               <FaPhone />
               055 XXX XX XX
