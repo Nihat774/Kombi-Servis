@@ -8,7 +8,7 @@ function Header() {
           <Link href="/" className="text-sm md:text-2xl font-semibold hover:underline">
             kombiustasixirdalan.az
           </Link>
-          <div className="rounded-lg flex items-center border border-white p-2 md:p-3 hover:animate-shake">
+          <div className="rounded-lg flex items-center border text-blue-600 bg-white p-2 md:p-3 hover:animate-shake">
             <Link
               href="tel:+994557748548"
               className="flex text-[10px] md:text-xl text-opacity-90  items-center gap-1 md:gap-2 "
