@@ -46,7 +46,7 @@ function AboutPage() {
             </p>
           </div>
 
-          <div className="flex md:flew-row flex-col md:gap-0 gap-4 justify-around">
+          <div className="flex md:flex-row flex-col md:gap-0 gap-4 justify-around">
             {carts.map(({ icon, text, id }) => {
               return (
                 <React.Fragment key={id}>

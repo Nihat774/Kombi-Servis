@@ -17,7 +17,7 @@ function SubHeader() {
           {navLinks.map(({ href, title,id }) => {
             return (
               <React.Fragment key={id}>
-                <Link href={href} className={`text-lg md:text-xl hover:border-b hover:pb-1 ${pathname == href?"border-b pb-1":""}`} >
+                <Link href={href} className={`text-md md:text-xl hover:border-b hover:pb-1 ${pathname == href?"border-b pb-1":""}`} >
                   {title}
                 </Link>
               </React.Fragment>
