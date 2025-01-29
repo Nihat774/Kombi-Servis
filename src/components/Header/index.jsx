@@ -3,7 +3,7 @@ import { FaPhone } from "react-icons/fa6";
 function Header() {
   return (
     <>
-      <header className="flex flex-col gap-5 text-white bg-blue-600 py-3 px-3 md:px-[14vw] sticky top-0 ">
+      <header className="flex flex-col gap-5 text-white bg-blue-600 py-3 px-3 md:px-[14vw] sticky top-0 z-50">
         <div className="flex gap-2 justify-between items-center">
           <Link href="/" className="text-sm md:text-2xl font-semibold hover:underline">
             kombiustasixirdalan.az

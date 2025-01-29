@@ -6,13 +6,13 @@ import { IoInformationCircle } from "react-icons/io5";
 function Contact() {
   return (
     <>
-      <main className="flex justify-between items-center min-h-[54vh]">
+      <main className="flex justify-between items-center min-h-[58vh] md:min-h-[56vh]">
         <section className="flex flex-col gap-3">
           <h1 className="text-2xl md:text-4xl font-semibold py-3">Əlaqə</h1>
           <div className="flex items-center gap-2">
             <FaPhoneAlt className="text-xl md:text-2xl" />
             <p className="text-xl md:text-xl font-medium">
-              {" "}
+             
               Bizimlə Əlaqə Saxlayın
             </p>
           </div>
