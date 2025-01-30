@@ -19,11 +19,32 @@ export const metadata = {
   title: "Kombi Ustasi Xirdalan | Ən Sərfəli Qiymətə Kombi Temiri",
   description:
     "Kombi Ustasi Xirdalan | Zəng edin 📞 070 200 24 47 peşəkar kombi temiri xidmeti, keyfiyyətli servis, görülən işlərə zəmanət verilir",
+  keywords: [
+    "kombi ustası Xırdalan",
+    "Xırdalanda kombi təmiri",
+    "kombi təmiri",
+    "kombi servisi",
+    "kombi quraşdırılması",
+    "kombi ustası",
+  ],
+  openGraph: {
+    title: "Kombi Ustasi Xirdalan | Ən Sərfəli Qiymətə Kombi Temiri",
+    description:
+      "Kombi Ustasi Xirdalan | Zəng edin 📞 070 200 24 47 peşəkar kombi temiri xidmeti, keyfiyyətli servis, görülən işlərə zəmanət verilir",
+    url: "https://www.kombiustasixirdalan.az/",
+    siteName: "Kombi Ustası Xırdalan",
+    type: "website",
+    locale: "az_AZ",
+  },
 };
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <meta name="google-site-verification" content="cPNgIIuwRuDu0ZX0GfVvaMcXsUiQ-APumFux_LX59z0" />
+      <meta
+        name="google-site-verification"
+        content="cPNgIIuwRuDu0ZX0GfVvaMcXsUiQ-APumFux_LX59z0"
+      />
       <link rel="icon" href="/favicon.png" sizes="any" />
       <body
         className={` ${geistSans.variable} ${geistMono.variable} antialiased`}

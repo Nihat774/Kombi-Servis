@@ -3,6 +3,12 @@ import { FaPhoneAlt, FaRegCalendarCheck } from "react-icons/fa";
 import { FaSquarePhone } from "react-icons/fa6";
 import { GiAutoRepair } from "react-icons/gi";
 import { IoInformationCircle } from "react-icons/io5";
+export const metadata = {
+  title: "Bizimlə Əlaqə | Kombi Ustası Xırdalan",
+  description:
+    "Xırdalanda kombi ustası ilə əlaqə saxlayın. Peşəkar kombi təmir və servis xidməti üçün bizə zəng edin və ya mesaj göndərin.",
+};
+
 function Contact() {
   return (
     <>
