@@ -16,8 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Kombi Ustası - 0702002447",
-  description: "Kombi Ustası Xırdalan",
+  title: "Kombi Ustasi Xirdalan | Ən Sərfəli Qiymətə Kombi Temiri",
+  description:
+    "Kombi Ustasi Xirdalan | Zəng edin 📞 070 200 24 47 peşəkar kombi temiri xidmeti, keyfiyyətli servis, görülən işlərə zəmanət verilir",
 };
 export default function RootLayout({ children }) {
   return (
@@ -29,7 +30,7 @@ export default function RootLayout({ children }) {
         <div className="flex flex-col min-h-screen">
           <Header />
           <SubHeader />
-        
+
           <div className="flex-[10] px-[30px] md:px-[70px] py-4 md:py-[30px]">
             {children}
           </div>
@@ -40,4 +41,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-

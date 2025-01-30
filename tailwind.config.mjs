@@ -21,9 +21,14 @@ export default {
           '50%': { transform: 'translateX(2px)' },
           '75%': { transform: 'translateY(-2px)' },
         },
+        slideIn: {
+          "0%": { opacity: "0", transform: "translateX(-100px)" },
+          "100%": { opacity: "1", transform: "translateX(0)" },
+        },
       },
       animation: {
         shake: 'shake .6s ease-in-out infinite',
+        slideIn: "slideIn 1s ease-out forwards",
       },
        },
   },
