@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.kombiustasixirdalan.az
+
+# Sitemaps
+Sitemap: https://www.kombiustasixirdalan.az/sitemap.xml
