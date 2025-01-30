@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Kombi Ustasi Xirdalan | Ən Sərfəli Qiymətə Kombi Temiri",
+  title: "Kombi Ustası Xırdalan - Peşəkar Kombi Təmir və Servis Xidməti",
   description:
     "Kombi Ustasi Xirdalan | Zəng edin 📞 070 200 24 47 peşəkar kombi temiri xidmeti, keyfiyyətli servis, görülən işlərə zəmanət verilir",
   keywords: [
@@ -28,7 +28,7 @@ export const metadata = {
     "kombi ustası",
   ],
   openGraph: {
-    title: "Kombi Ustasi Xirdalan | Ən Sərfəli Qiymətə Kombi Temiri",
+    title: "Kombi Ustası Xırdalan - Peşəkar Kombi Təmir və Servis Xidməti",
     description:
       "Kombi Ustasi Xirdalan | Zəng edin 📞 070 200 24 47 peşəkar kombi temiri xidmeti, keyfiyyətli servis, görülən işlərə zəmanət verilir",
     url: "https://www.kombiustasixirdalan.az/",
