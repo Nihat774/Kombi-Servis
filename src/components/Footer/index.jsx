@@ -6,7 +6,7 @@ function Footer() {
     <>
     <hr className="h-[3px] bg-blue-600  my-5" />
       <footer className="flex md:flex-row flex-col  flex-1 justify-center gap-2 items-center text-xl pb-3">
-        <p>kombiustasixirdalan.az by</p>
+        <p>V1 kombiustasixirdalan.az by</p>
         <Link className="text-blue-600 hover:underline" target="_blank" href="https://nihatmammadov.vercel.app/">
           nihathanafi
         </Link>
