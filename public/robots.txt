@@ -1,9 +1,12 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://www.kombiustasixirdalan.az
-
-# Sitemaps
-Sitemap: https://www.kombiustasixirdalan.az/sitemap.xml
+import type { MetadataRoute } from 'next'
+ 
+export default function robots(){
+  return {
+    rules: {
+      userAgent: '*',
+      allow: '/',
+      disallow: '/admin/',
+    },
+    sitemap: 'https://www.kombiustasixirdalan.az/sitemap.xml',
+  }
+}
