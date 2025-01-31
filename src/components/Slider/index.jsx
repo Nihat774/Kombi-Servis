@@ -27,7 +27,7 @@ export default function Slider() {
       >
         <SwiperSlide className="flex justify-center items-center bg-white text-lg font-semibold">
           <img
-            src="/slider/slider1.PNG"
+            src="/slider/slider1.jpeg"
             className="w-full object-cover"
             alt="slider1"
             loading="lazy"
@@ -35,7 +35,7 @@ export default function Slider() {
         </SwiperSlide>
         <SwiperSlide className="flex justify-center items-center bg-white text-lg font-semibold">
           <img
-            src="/slider/slider2.PNG"
+            src="/slider/slider2.jpeg"
             className="w-full object-cover"
             alt="slider2"
             loading="lazy"
@@ -44,7 +44,7 @@ export default function Slider() {
 
         <SwiperSlide className="flex justify-center items-center bg-white text-lg font-semibold">
           <img
-            src="/slider/slider3.PNG"
+            src="/slider/slider3.jpeg"
             className="w-full object-cover"
             alt="slider2"
             loading="lazy"
