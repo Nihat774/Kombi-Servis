@@ -1,17 +1,17 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import SubHeader from "@/components/SubHeader";
 import Icon from "@/components/WpIcon";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const robotoMono = Roboto_Mono({
+  variable: "--font-roboto-mono",
   subsets: ["latin"],
 });
 
@@ -40,22 +40,19 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <meta
-        name="google-site-verification"
-        content="cPNgIIuwRuDu0ZX0GfVvaMcXsUiQ-APumFux_LX59z0"
-      />
-      <link rel="icon" href="/favicon.png" sizes="any" />
-      <body
-        className={` ${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang="az">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="cPNgIIuwRuDu0ZX0GfVvaMcXsUiQ-APumFux_LX59z0"
+        />
+        <link rel="icon" href="/favicon.png" sizes="any" />
+      </head>
+      <body className={`${inter.variable} ${robotoMono.variable} antialiased`}>
         <div className="flex flex-col min-h-screen">
           <Header />
           <SubHeader />
-
-          <div className="flex-[10] px-[30px] md:px-[70px] py-4 md:py-[30px]">
-            {children}
-          </div>
+          <main className="flex-1 px-6 md:px-16 py-6">{children}</main>
           <Icon />
           <Footer />
         </div>

@@ -1,5 +1,4 @@
 "use client";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -21,7 +20,7 @@ export default function Slider() {
         pagination={{ clickable: true }}
         keyboard={{ enabled: true }}
         mousewheel={{ enabled: true }}
-        autoplay={{ delay: 1500, disableOnInteraction: false }} 
+        autoplay={{ delay: 1500, disableOnInteraction: false }}
         modules={[Navigation, Pagination, Autoplay, Keyboard, Mousewheel]}
         className="w-full h-full"
       >
@@ -29,7 +28,7 @@ export default function Slider() {
           <img
             src="/slider/slider1.jpeg"
             className="w-full object-cover"
-            alt="slider1"
+            alt="kombi temiri"
             loading="lazy"
           />
         </SwiperSlide>
@@ -37,16 +36,15 @@ export default function Slider() {
           <img
             src="/slider/slider2.jpeg"
             className="w-full object-cover"
-            alt="slider2"
+            alt="kombi-servis"
             loading="lazy"
           />
         </SwiperSlide>
-
         <SwiperSlide className="flex justify-center items-center bg-white text-lg font-semibold">
           <img
             src="/slider/slider3.jpeg"
             className="w-full object-cover"
-            alt="slider2"
+            alt="kombi qurasdirilmasi"
             loading="lazy"
           />
         </SwiperSlide>
