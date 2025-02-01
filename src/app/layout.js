@@ -42,10 +42,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="az">
       <head>
-        <meta
-          name="google-site-verification"
-          content="cPNgIIuwRuDu0ZX0GfVvaMcXsUiQ-APumFux_LX59z0"
-        />
+        <meta name="google-site-verification" content="cPNgIIuwRuDu0ZX0GfVvaMcXsUiQ-APumFux_LX59z0" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.kombiustasixirdalan.az/" />
+        <meta property="og:image" content="https://www.kombiustasixirdalan.az/your-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <link rel="icon" href="/favicon.png" sizes="any" />
       </head>
       <body className={`${inter.variable} ${robotoMono.variable} antialiased`}>
