@@ -5,7 +5,7 @@ import Link from 'next/link'
 function HomeSection1() {
   return (
     <>
-    <h1 className='text-3xl font-semibold'>Kombi Ustasi salam</h1>
+    <h1 className='text-3xl font-semibold'>Kombi Ustasi</h1>
       <Slider />
         <section className="flex flex-col items-center justify-between gap-5">
           <p className="w-full text-lg md:text-2xl  h-fit">
