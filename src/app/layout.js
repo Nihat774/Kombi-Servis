@@ -30,7 +30,7 @@ export const metadata = {
   openGraph: {
     title: "Kombi Ustası Xırdalan - Peşəkar Kombi Təmir və Servis Xidməti",
     description:
-      "Kombi Ustasi Xirdalan | Zəng edin 📞 070 200 24 47 peşəkar kombi temiri xidmeti, keyfiyyətli servis, görülən işlərə zəmanət verilir",
+      "Kombi Ustasi | Yasamal | Xirdalan | Masazır | Sulutəpə | Zəng edin 📞 070 200 24 47 peşəkar kombi temiri xidmeti, keyfiyyətli servis, görülən işlərə zəmanət verilir",
     url: "https://www.kombiustasixirdalan.az/",
     siteName: "Kombi Ustası Xırdalan",
     type: "website",
