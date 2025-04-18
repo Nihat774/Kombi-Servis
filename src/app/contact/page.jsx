@@ -37,7 +37,7 @@ function Contact() {
             </p>
           </div>
           <div className="flex items-center gap-2">
-          <FaMapMarkerAlt className="text-5xl md:text-2xl"/>
+          <FaMapMarkerAlt className="text-2xl"/>
             <p className="text-[14px] md:text-xl font-medium">
               Ünvanlarımız:  | Yasamal | Xirdalan | Masazır | Sulutəpə | 20 Yanvar
             </p>
