@@ -4,9 +4,9 @@ import { TbClipboardList } from "react-icons/tb";
 import { FcAbout } from "react-icons/fc";
 import React from "react";
 export const metadata = {
-  title: "Haqqımızda | Xırdalanda Kombi Təmir və Servis Xidməti",
+  title: "Haqqımızda | Kombi Təmir və Servis Xidməti",
   description:
-    "Kombi Ustası Xırdalan - Peşəkar kombi təmir və baxım xidmətləri. Keyfiyyətli və zəmanətli kombi servisi haqqında ətraflı məlumat əldə edin.",
+    "Kombi Ustasi | Yasamal | Xirdalan | Masazır | Sulutəpə | - Peşəkar kombi təmir və baxım xidmətləri. Keyfiyyətli və zəmanətli kombi servisi haqqında ətraflı məlumat əldə edin.",
 };
 
 function AboutPage() {
