@@ -46,10 +46,10 @@ export default function RootLayout({ children }) {
         <meta name="google-site-verification" content="cPNgIIuwRuDu0ZX0GfVvaMcXsUiQ-APumFux_LX59z0" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://www.kombiustasixirdalan.az/"/>
-        <meta property="og:image" content="https://www.kombiustasixirdalan.az/kombi-servis1.svg" />
+        <meta property="og:image" content="https://www.kombiustasixirdalan.az/kombi-servis.svg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <link rel="icon" href="/kombi-servis1.svg" sizes="any" />
+        <link rel="icon" href="/kombi-servis.svg" sizes="any" />
       </head>
       <body className={`${inter.variable} ${robotoMono.variable} antialiased`}>
         <div className="flex flex-col min-h-screen">
